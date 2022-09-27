@@ -5,7 +5,7 @@ y = int(input())
 
 contador = 0
 
-for n in range(x, y):
+for n in range(x, y + 1):
     maiorDivisiorPossivel = math.floor(math.sqrt(n))
 
     primo = True
@@ -23,7 +23,6 @@ for n in range(x, y):
                 break
 
     if primo:
-        print(n)
         contador += 1
 
 print(contador)

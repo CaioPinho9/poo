@@ -4,7 +4,7 @@ import math
 def fatorial(n):
     fat = 1
     for i in range(n, 1, -1):
-        fat *= n
+        fat *= i
     return fat
 
 

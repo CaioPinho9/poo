@@ -11,7 +11,7 @@ if numero == 1:
 elif numero == 2:
     primo = True
 elif numero % 2 == 0:
-    primo = True
+    primo = False
 else:
     for i in range(3, maiorDivisiorPossivel + 1, 2):
         if numero % i == 0:

@@ -8,4 +8,3 @@ while senha != correta:
         break
     print("Senha Invalida")
 
-
